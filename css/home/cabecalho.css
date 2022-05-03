@@ -1,0 +1,9 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho a {
+    font-size: 30px;
+    text-decoration: none;
+}
