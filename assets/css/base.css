@@ -16,7 +16,7 @@
 
 body {
     width: var(--largura-mobile);
-    max-width: var(--largura-mobile);
+    /* max-width: var(--largura-mobile); */
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
