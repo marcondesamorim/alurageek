@@ -6,6 +6,14 @@
     padding: 16px;
 }
 
+.starwars_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
 .starwars_top__logo {
     font-weight: 700;
     font-size: 22px;
