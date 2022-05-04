@@ -1,3 +1,11 @@
+.container-starwars {
+    width: 100%;
+}
+
+.starwars {
+    padding: 16px;
+}
+
 .starwars_top__logo {
     font-weight: 700;
     font-size: 22px;
