@@ -1,10 +1,9 @@
 .container-top {
-    width: 100vw;
-    margin: 1rem 1rem;
+    width: 100%;
 }
 
 .top {
-    width: 90%;
+    padding: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -38,7 +37,11 @@
 }
 
 .top_joystick-logo__logo___alura {
-    color: #2A7AE4;
+    color: var(--cor-primaria);
+}
+
+.top_joystick-logo__logo___geek {
+    color: var(--cor-titulo-preto);
 }
 
 ;
@@ -55,7 +58,7 @@
 }
 
 .top_link-login {
-    text-decoration: none;
+    /* text-decoration: none; */
 
     display: flex;
     flex-direction: row;
@@ -69,15 +72,13 @@
     left: 151.5px;
     top: 16px;
 
-    border: 1px solid #2A7AE4;
+    border: 1px solid var(--cor-primaria);
     box-sizing: border-box;
 
-    /* font-family: 'Raleway';
-    font-style: normal; */
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
 
-    color: #2A7AE4;
-
+    color: var(--cor-primaria);
+    background-color: var(--cor-branco)
 }
