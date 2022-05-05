@@ -1,0 +1,82 @@
+.container-products {
+    width: 100%;
+}
+
+.products_line {
+    padding: 16px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+
+.top__logo {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: var(--cor-titulo-preto);
+}
+
+.top__button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: var(--cor-branco);
+    color: var(--cor-primaria);
+}
+
+
+.top__button___arrow {
+    font-family: 'Fira Code', monospace;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    padding: 0px;
+}
+
+
+.products__product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.products__product___image {
+    width: 156px;
+    height: 174px;
+}
+
+.products__product___title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--cor-terciaria);
+    margin-top: 8px;
+}
+
+.products__product___price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--cor-terciaria);
+    margin-top: 8px;
+}
+
+.products__product___link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    margin-top: 8px;
+}
