@@ -1,63 +1,46 @@
-.container-top {
-    width: 100%;
-}
-
 .top {
-    padding: 16px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.top_joystick-logo__joystick {
+.top_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.top_logo__joystick {
     width: 22px;
     height: 16px;
 }
 
-
-
-.top_joystick-logo {
+.top_logo__text {
     display: flex;
     justify-content: flex-start;
 }
 
-.top_joystick-logo_logo {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-.top_joystick-logo__logo___alura,
-.top_joystick-logo__logo___geek {
+.top_logo__text___alura,
+.top_logo__text___geek {
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
     font-weight: bold;
 }
 
-.top_joystick-logo__logo___alura {
+.top_logo__text___alura {
     color: var(--cor-primaria);
 }
 
-.top_joystick-logo__logo___geek {
+.top_logo__text___geek {
     color: var(--cor-titulo-preto);
 }
 
-;
-
-.top_joystick-logo__joystick {
-    width: 22px;
-    height: 16px;
-}
 
 
-.top_spyglass {
-    width: 17px;
-    height: 17px;
-}
-
-.top_link-login {
+.top_login {
     /* text-decoration: none; */
 
     display: flex;
@@ -81,4 +64,9 @@
 
     color: var(--cor-primaria);
     background-color: var(--cor-branco)
+}
+
+.top_spyglass {
+    width: 17px;
+    height: 17px;
 }

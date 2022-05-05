@@ -1,28 +1,25 @@
-.container-products {
-    width: 100%;
-}
-
 .products_line {
-    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.top {
+.product-line_top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0px;
-    margin-bottom: 16px;
 }
 
-.top__logo {
+.product-line_top__title {
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
     color: var(--cor-titulo-preto);
 }
 
-.top__button {
+.product-line_top__button {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -31,32 +28,33 @@
 }
 
 
-.top__button___arrow {
+.product-line_top__button___arrow {
     font-family: 'Fira Code', monospace;
 }
 
-.products {
+.product-line_products {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     padding: 0px;
+    margin-top: 16px;
 }
 
 
-.products__product {
+.product-line_products__product {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
 }
 
-.products__product___image {
+.product-line_products__product___image {
     width: 156px;
     height: 174px;
 }
 
-.products__product___title {
+.product-line_products__product___title {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -64,7 +62,7 @@
     margin-top: 8px;
 }
 
-.products__product___price {
+.product-line_products__product___price {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
@@ -72,7 +70,7 @@
     margin-top: 8px;
 }
 
-.products__product___link {
+.product-line_products__product___link {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
