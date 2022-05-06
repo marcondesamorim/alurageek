@@ -3,15 +3,40 @@
 
     --largura-mobile: 360px;
 
-    --cor-primaria: #2a7ae4;
-    --cor-secundaria: #f5f5f5;
+    --cor-primaria: #2A7AE4;
+    --cor-secundaria: #F5F5F5;
     --cor-terciaria: #000000;
     --cor-titulo-preto: #464646;
-    --cor-branco: #ffffff;
+    --cor-branco: #FFFFFF;
+    --cor-azul10: #EAF2FD;
 
     --cor-destacado-item: rgb(212, 228, 250);
     --cor-sucesso: #047900;
+    --cor-aviso: #DF2525;
+
+
+
+
+    --fonte-peso-input: 400;
+
+    --fonte-tamanho-logo: 28px;
+    --fonte-tamanho-cartao-titulo: 28px;
+    --fonte-tamanho-input-label: 16px;
+    --fonte-tamanho-botao: 22px;
+    --fonte-tamanho-formulario-fieldset: 22px;
+    --fonte-tamanho-tabela-cabecalho: 22px;
+    --fonte-tamanho-modal-titulo: 28px;
+    --fonte-tamanho-modal-botao: 28px;
+
+    --cor-primaria: #0071ea;
+    --cor-secundaria: #d6eaff;
+    --cor-contraste-escuro: #4D4D4D;
+    --cor-contraste-claro: #FFFFFF;
     --cor-aviso: #df2525;
+    --cor-sucesso: #047900;
+    --cor-transparencia: #4d4d4d33;
+
+    --sombra: 0 5px 10px #55a6ff38;
 }
 
 body {
@@ -22,7 +47,14 @@ body {
     background-color: var(--cor-branco);
 }
 
+textarea,
+input,
+select {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
 .container {
-    /* width: 100%; */
     padding: 16px;
 }

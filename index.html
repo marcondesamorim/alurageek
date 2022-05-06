@@ -13,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/home/header.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/home/banner.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/home/products/product.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/home/product.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/home/footer.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/home/contacts.css">
     <title>Alura Geek</title>
 
 </head>
@@ -168,15 +170,58 @@
 </body>
 <footer>
     <section class="footer container">
-        <div class="footer_logo">
-            <img class="footer_logo__joystick" src="./assets/images/small/home/joystick-big.png"
-                alt="Imagem de joystick">
-            <div class="footer_logo__text">
-                <div class="footer_logo__text___alura">Alura</div>
-                <div class="footer_logo__text___geek">Geek</div>
+        <div class="footer_contents">
+            <div class="footer_contents__top">
+                <div class="footer_contents__top___logo">
+                    <img class="footer_contents__top___logo____joystick"
+                        src="./assets/images/small/home/joystick-big.png" alt="Imagem de joystick">
+                    <div class="footer_contents__top___logo____text">
+                        <div class="footer_contents__top___logo____text_____alura">Alura</div>
+                        <div class="footer_contents__top___logo____text_____geek">Geek</div>
+                    </div>
+                </div>
+                <div class="footer_contents__top___links">
+                    <a class="footer_contents__top___links____link" href="#">Quem somos nós</a>
+                    <a class="footer_contents__top___links____link" href="#">Política de privacidade</a>
+                    <a class="footer_contents__top___links____link" href="#">Programa de fidelidade</a>
+                    <a class="footer_contents__top___links____link" href="#">Nossas lojas</a>
+                    <a class="footer_contents__top___links____link" href="#">Quero ser franqueado</a>
+                    <a class="footer_contents__top___links____link" href="#">Anuncie aqui</a>
+                </div>
+            </div>
+            <div class="footer_contents_contacts">
+                <form class="footer_contacts_form" id="form" action="https://formsubmit.co/marcondesjra@gmail.com"
+                    method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next"
+                        value="https://marcondesamorim.github.io/portfolio/contato-enviado.html">
+
+                    <h3 class="footer_contacts__form_title">Fale conosco</h3>
+                    <div class="footer_contacts__input-container">
+                        <input class="footer_contacts__input" name="nome" id="nome" type="text" placeholder="Nome"
+                            data-tipo="nome" required>
+                        <label class="footer_contacts__input-label" for="nome">Nome</label>
+                    </div>
+                    <div class="textarea-container">
+                        <div class="footer_contacts__textarea">
+                            <textarea class="textarea" type="text" placeholder="Mensagem" data-tipo="mensagem" required
+                                cols="80" rows="7"></textarea>
+                            <label class="textarea-label" for="assunto">Escreva sua mensagem</label>
+                        </div>
+                    </div>
+
+                    <div class="footer_contents__contents___btn-submit">
+                        <label for="botao"></label>
+                        <button type="submit" id="btnSubmit" value="Enviar Mensagem">Enviar
+                            Mensagem</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
+    <session class="copyright container">
+        Desenvolvido por Marcondes Amorim em 2022
+    </session>
 </footer>
 
 </html>
