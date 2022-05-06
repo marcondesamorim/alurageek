@@ -38,7 +38,33 @@
     color: var(--cor-titulo-preto);
 }
 
+.top_search-bar {
+    display: none;
+    background: var(--cor-secundaria);
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    width: 272px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
 
+
+i {
+    font-family: FontAwesome;
+    margin: 0 auto;
+    font-size: 5rem;
+    font-style: normal;
+}
+
+.fa {
+    top: 13px;
+    right: 1rem;
+}
 
 .top_login {
     /* text-decoration: none; */
@@ -69,4 +95,11 @@
 .top_spyglass {
     width: 17px;
     height: 17px;
+}
+
+@media screen and (min-width: 360px) {
+    .top_search-bar {
+        display: flex;
+    }
+
 }

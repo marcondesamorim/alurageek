@@ -2,6 +2,8 @@
     --fonte-familia-principal: "Raleway", sans-serif;
 
     --largura-mobile: 360px;
+    --largura-tablet: 768px;
+    --largura-desktop: 1440px;
 
     --cor-primaria: #2A7AE4;
     --cor-secundaria: #F5F5F5;
@@ -14,6 +16,8 @@
     --cor-sucesso: #047900;
     --cor-aviso: #DF2525;
 
+    --cor-transparencia: #4d4d4d33;
+    --sombra: 0 5px 10px #55a6ff38;
 
 
 
@@ -28,15 +32,6 @@
     --fonte-tamanho-modal-titulo: 28px;
     --fonte-tamanho-modal-botao: 28px;
 
-    --cor-primaria: #0071ea;
-    --cor-secundaria: #d6eaff;
-    --cor-contraste-escuro: #4D4D4D;
-    --cor-contraste-claro: #FFFFFF;
-    --cor-aviso: #df2525;
-    --cor-sucesso: #047900;
-    --cor-transparencia: #4d4d4d33;
-
-    --sombra: 0 5px 10px #55a6ff38;
 }
 
 body {
@@ -57,4 +52,10 @@ select {
 
 .container {
     padding: 16px;
+}
+
+@media screen and (min-width: 360px) {
+    body {
+        width: var(--largura-tablet);
+    }
 }
