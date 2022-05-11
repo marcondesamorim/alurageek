@@ -9,9 +9,10 @@
     --cor-secundaria: #F5F5F5;
     --cor-terciaria: #000000;
     --cor-titulo-preto: #464646;
+    --cor-preto50: #A2A2A2;
     --cor-branco: #FFFFFF;
     --cor-azul10: #EAF2FD;
-
+    --cor-preto-login: #f8f7f7;
     --cor-destacado-item: rgb(212, 228, 250);
     --cor-sucesso: #047900;
     --cor-aviso: #DF2525;
@@ -35,27 +36,25 @@
 }
 
 body {
-    width: var(--largura-mobile);
+    margin: 0 auto;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
-    margin: 0 auto;
     background-color: var(--cor-branco);
 }
 
-textarea,
-input,
-select {
-    box-shadow: 0 0 0 0;
-    border: 0 none;
-    outline: 0;
-}
 
 .container {
     padding: 16px;
 }
 
-@media screen and (min-width: 360px) {
-    body {
-        width: var(--largura-tablet);
+@media screen and (min-width: 361px) and (max-width: 768px) {
+    .container {
+        padding: 32px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        padding: 32px 152px;
     }
 }
