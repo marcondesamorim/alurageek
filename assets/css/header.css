@@ -40,7 +40,6 @@
 
 .top_search-bar {
     display: none;
-    background: var(--cor-secundaria);
     flex-direction: row;
     align-items: center;
     padding: 8px 16px;
@@ -50,17 +49,19 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+    background: rgb(245, 245, 245);
 }
 
 .icon-rtl {
-    padding-right: 25px;
     background: url("../images/loupe.png") no-repeat right;
     background-size: 17px;
 }
 
 .top_direita {
+    width: 12rem;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     padding: 0px;
 }
@@ -72,8 +73,7 @@
     align-items: center;
     padding: 12px 16px;
 
-    width: 133px;
-    height: 40px;
+    width: 101px;
     border: 1px solid var(--cor-primaria);
 
     font-weight: 600;
@@ -81,7 +81,8 @@
     line-height: 16px;
 
     color: var(--cor-primaria);
-    background-color: var(--cor-branco)
+    background-color: var(--cor-branco);
+    text-decoration: none;
 }
 
 .top_loupe {

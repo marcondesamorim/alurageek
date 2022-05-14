@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" type="text/css" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/reset.css">
-    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap">
     <link rel="stylesheet" type="text/css"
         href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap">
-    <link rel="stylesheet" type="text/css" href="../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../css/login/login.css">
-    <link rel="stylesheet" type="text/css" href="../css/footer.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/header.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/login/login.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/product-add/product-add.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
     <title>Alura Geek</title>
 
 </head>
@@ -31,20 +32,37 @@
                 </div>
             </div>
             <input class="top_search-bar icon-rtl" type="text" placeholder="O que deseja encontrar?">
-            <a class="top_login" href="/assets/pages/login.html">Login</a>
+            <button class="top_menu" href="#">Menu administrador</button>
             <img src="../images/loupe.png" alt="imagem de uma lupa" class="top_loupe">
         </section>
     </header>
     <main>
-        <section class="login">
-            <div class="login_box">
-                <div class="iniciar-sessao">
-                    Iniciar Sessão
-                </div>
-                <input class="login_input__email" type="text" placeholder="Escreva seu email" required>
-                <input class="login_input__password" type="password" placeholder="Escreva sua senha" required>
-                <button class="login-btn">Entrar</button>
+        <section class="product-add">
+            <div class="product-add_title">Adicionar novo produto</div>
+
+            <div class="product-add_mobile">
+                <div class="product-add_mobile__plus">+</div>
+                <div class="product-add_mobile__description">Adicionar uma imagem para o produto</div>
             </div>
+
+            <div class="product-add_tablet">
+                <div class="product-add_tablet__box-file">
+                    <img class="product-add_tablet__box-file_image" src="/assets/images/file.png"
+                        alt="Imagem de um arquivo">
+                    <div class="product-add_tablet__box-file_description">
+                        Arraste para adicionar uma imagem para o produto
+                    </div>
+                </div>
+                Ou
+                <button class="product-add_tablet__btn">Procure no seu tablet</button>
+                <button class="product-add_desktop__btn">Procure no seu computador</button>
+            </div>
+
+            <input class="product-add_input__name" type="text" placeholder="Nome do produto" required>
+            <input class="product-add_input__price" type="text" placeholder="Preço do produto" required>
+            <textarea class="product-add_textarea__description" cols="30" rows="10"
+                placeholder="Descrição do produto"></textarea>
+            <button class="product-add_btn">Adicionar produto</button>
         </section>
     </main>
 </body>
