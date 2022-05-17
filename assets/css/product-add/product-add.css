@@ -52,11 +52,6 @@ main {
     color: #C8C8C8;
 }
 
-.product-add_tablet,
-.product-add_desktop {
-    display: none;
-}
-
 .product-add_input__name,
 .product-add_input__price,
 .product-add_textarea__description {
@@ -143,6 +138,10 @@ main {
     font-size: 16px;
     line-height: 19px;
     color: #2A7AE4;
+}
+
+.product-add_tablet {
+    display: none;
 }
 
 @media screen and (min-width: 361px) and (max-width: 768px) {

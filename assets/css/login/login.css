@@ -47,6 +47,7 @@
 
 .login-btn {
     padding: 12px 16px;
+    margin-top: 16px;
     background-color: var(--cor-primaria);
     width: 109px;
     height: 40px;
